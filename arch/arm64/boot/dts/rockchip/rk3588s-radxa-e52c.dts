@@ -643,7 +643,7 @@
 				};
 			};
 
-			vcc_3v3_s3: vcc_3v3_pmu: cdc-reg8 {
+			vcc_3v3_s3: vcc_3v3_pmu: dcdc-reg8 {
 				regulator-name = "vcc_3v3_s3";
 				regulator-always-on;
 				regulator-boot-on;
