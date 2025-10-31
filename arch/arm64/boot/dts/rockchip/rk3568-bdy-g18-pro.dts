@@ -989,7 +989,9 @@
 
 &sfc {
 	status = "okay";
-
+	#address-cells = <1>; // 明确指定地址单元为 1 (用于片选号)
+	#size-cells = <0>;    // 明确指定大小单元为 0
+	
 	flash@0 {
 		compatible = "spi-nor";
 		reg = <0>;
