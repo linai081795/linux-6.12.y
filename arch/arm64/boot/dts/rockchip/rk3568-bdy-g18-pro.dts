@@ -8,7 +8,7 @@
 #include <dt-bindings/input/input.h>
 #include <dt-bindings/soc/rockchip,vop2.h>
 #include <dt-bindings/pinctrl/rockchip.h>
-#include rk3568.dtsi
+#include "rk3568.dtsi"
 
 / {
 	model = "BDY-G18 AX3000 Router";
